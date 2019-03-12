@@ -1,0 +1,16 @@
+.input-text{
+    padding-left: 10px;
+}
+li{
+    padding: 10px;
+}
+input{
+    margin-right: 10px;
+}
+button{
+    margin-left: 10px;
+}
+html, body{
+    margin-left: 80px;
+    margin-right: 90px;
+}
