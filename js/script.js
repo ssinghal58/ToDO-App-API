@@ -108,7 +108,7 @@ function change_status(id, caption, is_completed){
     })
 }
 function update_data(id, caption, is_completed){    
-    var updatedCaption = prompt("Update Task: "+caption);
+    var updatedCaption = prompt("Update Task: ",caption);
     $.ajax({
         url: 'http://todo-api.local.geekydev.com/api/update.php',
         dataType: 'text',
